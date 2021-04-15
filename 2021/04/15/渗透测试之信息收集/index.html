@@ -8,15 +8,15 @@
   
     <meta name="keywords" content="MinHow,MinHow's Blog" />
   
-  <meta name="description" content="HTML笔记HTML简介HTMLHTML是一种超文本标记语言，标记语言是一套标记标签，HTML文档其实就等于网页，浏览器读取HTML文档以网页的形式显示出来，在浏览网页是可按ctrl+U查看当前网页的HTML文档，HTML文档的扩展名为**.htm** 或者**.html** HTML标签特点 用尖括号包围关键词，如 标签成对出现，如 成对标签中第一个是开始标签，第二个是结束标签，也称为开放标签和">
+  <meta name="description" content="渗透测试之信息收集1.收集域名信息whois查询whois是一个可用于收集网络注册信息，注册的域名、IP地址等信息的标准的互联网协议。简单来说，Whois就是一个用于查询域名是否已被注册以及域名详细信息的数据库。 常用的whois查询网站有 http:&#x2F;&#x2F;www.cnnic.com.cn（中国互联网络信息中心） http:&#x2F;&#x2F;whois.aizhan.com（爱占工具网） http:&#x2F;&#x2F;whois">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="https://535417.github.io/2021/04/14/html%E7%AC%94%E8%AE%B0/index.html">
+<meta property="og:url" content="https://535417.github.io/2021/04/15/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B9%8B%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="HTML笔记HTML简介HTMLHTML是一种超文本标记语言，标记语言是一套标记标签，HTML文档其实就等于网页，浏览器读取HTML文档以网页的形式显示出来，在浏览网页是可按ctrl+U查看当前网页的HTML文档，HTML文档的扩展名为**.htm** 或者**.html** HTML标签特点 用尖括号包围关键词，如 标签成对出现，如 成对标签中第一个是开始标签，第二个是结束标签，也称为开放标签和">
+<meta property="og:description" content="渗透测试之信息收集1.收集域名信息whois查询whois是一个可用于收集网络注册信息，注册的域名、IP地址等信息的标准的互联网协议。简单来说，Whois就是一个用于查询域名是否已被注册以及域名详细信息的数据库。 常用的whois查询网站有 http:&#x2F;&#x2F;www.cnnic.com.cn（中国互联网络信息中心） http:&#x2F;&#x2F;whois.aizhan.com（爱占工具网） http:&#x2F;&#x2F;whois">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-04-14T11:36:44.248Z">
-<meta property="article:modified_time" content="2021-04-07T23:49:17.894Z">
+<meta property="article:published_time" content="2021-04-15T03:28:24.982Z">
+<meta property="article:modified_time" content="2021-04-15T03:05:40.258Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -113,77 +113,25 @@
     </div>
 </header>
       <div class="outer">
-        <section id="main" class="body-wrap"><article id="post-html笔记" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main" class="body-wrap"><article id="post-渗透测试之信息收集" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
     <div class="article-entry post-content" itemprop="articleBody">
       
             
-            <h1 id="HTML笔记"><a href="#HTML笔记" class="headerlink" title="HTML笔记"></a>HTML笔记</h1><h2 id="HTML简介"><a href="#HTML简介" class="headerlink" title="HTML简介"></a>HTML简介</h2><h3 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h3><p>HTML是一种超文本标记语言，标记语言是一套标记标签，HTML文档其实就等于网页，浏览器读取HTML文档以网页的形式显示出来，在浏览网页是可按<strong>ctrl+U</strong>查看当前网页的HTML文档，HTML文档的扩展名为**.htm** 或者**.html**</p>
-<h3 id="HTML标签特点"><a href="#HTML标签特点" class="headerlink" title="HTML标签特点"></a>HTML标签特点</h3><ol>
-<li>用<strong>尖括号</strong>包围关键词，如<html></li>
-<li>标签<strong>成对出现</strong>，如<body></body></li>
-<li>成对标签中第一个是<strong>开始标签</strong>，第二个是<strong>结束标签</strong>，也称为开放标签和闭合标签</li>
-</ol>
-<h3 id="html基础标签"><a href="#html基础标签" class="headerlink" title="html基础标签"></a>html基础标签</h3><pre><code>1. &lt;html&gt;与&lt;/html&gt;之间的文本描述网页
-2. &lt;body&gt;与&lt;/body&gt;为网页的主体，网页内容包含于其中
-3. 标题标签，&lt;h1&gt;与&lt;/h1&gt;之间为标题 ，标题一共有六级，&lt;h1&gt;~&lt;h6&gt;
-4. 段落标签，&lt;p&gt;与&lt;/p&gt;之间为段落内容
-5. 链接标签&lt;a&gt; ：&lt;a href=&quot;链接地址&quot;&gt;链接说明&lt;/a&gt;        (href：超链接）
-6. 图像标签&lt;img&gt; : &lt;img src=&quot;20210407.jpg&quot; width=&quot;100&quot; height=&quot;120&quot; /&gt; （src,source：资源位置）  width和height定义显示的图片宽和高
-7. &lt;br&gt;换行
-8. &lt;!-- --&gt;注释，不显示在网页上
-9. &lt;hr /&gt;创建水平线
-</code></pre>
-<h3 id="HTML元素"><a href="#HTML元素" class="headerlink" title="HTML元素"></a>HTML元素</h3><ul>
-<li>开始标签到结束标签的所有代码为一个<strong>HTML元素</strong></li>
-<li>某些元素具有空内容，无结束标签，如<br></li>
-<li>每个元素应该使用结束标签进行关闭，空元素在开始标签中进行关闭，使用斜杠，如<br/></li>
-<li>大多数HTML元素具有属性，且在开始标签中定义，如图片的尺寸</li>
-</ul>
-<h4 id="HTML属性"><a href="#HTML属性" class="headerlink" title="HTML属性"></a>HTML属性</h4><pre><code>&lt;h1 align=&quot;center&quot;&gt; 添加对齐(align)属性,居中
-&lt;body bgcolor=&quot;blue&quot;&gt; 定义背景颜色属性
-&lt;table border=&#39;2&#39;&gt;    定义表格边框宽度
-若属性值本身就含有双引号，属性值必须使用单引号，其他情况单双引号都可以
-</code></pre>
-<h3 id="HTML样式"><a href="#HTML样式" class="headerlink" title="HTML样式"></a>HTML样式</h3><p>style属性提供了一种改变所有HTML元素的样式的使用方法</p>
-<p>若干个标签和属性将被遗弃，未来版本的 HTML 和 XHTML 中将不支持这些标签和属性。</p>
-<p>所以，应避免使用以下标签和属性：</p>
-<pre><code>&lt;center&gt;            定义居中文本
-&lt;font&gt;和&lt;basefont&gt;    定义HTML字体
-&lt;s&gt;和&lt;strike&gt;        定义删除线文本    
-&lt;u&gt;                    定义下划线文本
-align                定义文本的对齐方式
-bgcolor                定义背景颜色
-color                定义文本颜色
-</code></pre>
-<p>应使用样式代替，如</p>
-<pre><code>&lt;html&gt;
-
-&lt;body style=&quot;background-color:yellow&quot;&gt;
-&lt;h2 style=&quot;background-color:red&quot;&gt;This is a heading&lt;/h2&gt;
-&lt;p style=&quot;background-color:green&quot;&gt;This is a paragraph.&lt;/p&gt;
-&lt;/body&gt;
-
-&lt;/html&gt;
-</code></pre>
-<p>显示黄色背景：</p>
-<html>
-
-<body style="background-color:yellow">
-<h2 style="background-color:red">This is a heading</h2>
-<p style="background-color:green">This is a paragraph.</p>
-</body>
-
-</html>
-
-
-
+            <h1 id="渗透测试之信息收集"><a href="#渗透测试之信息收集" class="headerlink" title="渗透测试之信息收集"></a>渗透测试之信息收集</h1><h2 id="1-收集域名信息"><a href="#1-收集域名信息" class="headerlink" title="1.收集域名信息"></a>1.收集域名信息</h2><h3 id="whois查询"><a href="#whois查询" class="headerlink" title="whois查询"></a>whois查询</h3><p>whois是一个可用于收集网络注册信息，注册的域名、IP地址等信息的标准的互联网协议。简单来说，Whois就是一个用于查询域名是否已被注册以及域名详细信息的数据库。</p>
+<p>常用的whois查询网站有</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnnic.com.cn/">http://www.cnnic.com.cn</a>（中国互联网络信息中心）</p>
+<p><a target="_blank" rel="noopener" href="http://whois.aizhan.com/" title="爱站">http://whois.aizhan.com</a>（爱占工具网）</p>
+<p><a target="_blank" rel="noopener" href="http://whois.chinaz.com/" title="站长之家">http://whois.chinaz.com</a>（站长之家）</p>
+<p><a target="_blank" rel="noopener" href="http://www.virustotal.com/" title="Virus Total">http://www.virustotal.com</a>（Virus Total)</p>
+<h3 id="备案信息查询"><a href="#备案信息查询" class="headerlink" title="备案信息查询"></a>备案信息查询</h3><p>ICP备案查询网：<a target="_blank" rel="noopener" href="http://beianbeian.com/" title="ICP">http://www.beianbeian.com</a></p>
+<p>天眼查：<a target="_blank" rel="noopener" href="http://www.tianyancha.com/" title="天眼查">http://www.tianyancha.com</a></p>
 
             <div class="post-copyright">
     <div class="content">
-        <p>最后更新： 2021年04月08日 07:49</p>
-        <p>原始链接： <a class="post-url" href="/2021/04/14/html%E7%AC%94%E8%AE%B0/" title="">https://535417.github.io/2021/04/14/html%E7%AC%94%E8%AE%B0/</a></p>
+        <p>最后更新： 2021年04月15日 11:05</p>
+        <p>原始链接： <a class="post-url" href="/2021/04/15/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B9%8B%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/" title="">https://535417.github.io/2021/04/15/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B9%8B%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/</a></p>
         <footer>
             <a href="https://535417.github.io">
                 <img src="/images/logo.png" alt="John Doe">
@@ -240,7 +188,7 @@ color                定义文本颜色
     <div class="post-share-list" id="share-list">
         <ul class="share-icons">
           <li>
-            <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://535417.github.io/2021/04/14/html%E7%AC%94%E8%AE%B0/&title=Hexo&pic=https://535417.github.ioimages/logo.png" data-title="微博">
+            <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://535417.github.io/2021/04/15/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B9%8B%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/&title=Hexo&pic=https://535417.github.ioimages/logo.png" data-title="微博">
               <i class="fa fa-weibo"></i>
             </a>
           </li>
@@ -250,22 +198,22 @@ color                定义文本颜色
             </a>
           </li>
           <li>
-            <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://535417.github.io/2021/04/14/html%E7%AC%94%E8%AE%B0/&title=Hexo&source=" data-title="QQ">
+            <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://535417.github.io/2021/04/15/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B9%8B%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/&title=Hexo&source=" data-title="QQ">
               <i class="fa fa-qq"></i>
             </a>
           </li>
           <li>
-            <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://535417.github.io/2021/04/14/html%E7%AC%94%E8%AE%B0/" data-title="Facebook">
+            <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://535417.github.io/2021/04/15/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B9%8B%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/" data-title="Facebook">
               <i class="fa fa-facebook"></i>
             </a>
           </li>
           <li>
-            <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=Hexo&url=https://535417.github.io/2021/04/14/html%E7%AC%94%E8%AE%B0/&via=https://535417.github.io" data-title="Twitter">
+            <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=Hexo&url=https://535417.github.io/2021/04/15/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B9%8B%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/&via=https://535417.github.io" data-title="Twitter">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
           <li>
-            <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://535417.github.io/2021/04/14/html%E7%AC%94%E8%AE%B0/" data-title="Google+">
+            <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://535417.github.io/2021/04/15/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B9%8B%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/" data-title="Google+">
               <i class="fa fa-google-plus"></i>
             </a>
           </li>
@@ -275,7 +223,7 @@ color                定义文本颜色
 <div class="post-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;" id="wxShare-close">×</a>
     <p>扫一扫，分享到微信</p>
-    <img src="//api.qrserver.com/v1/create-qr-code/?data=https://535417.github.io/2021/04/14/html%E7%AC%94%E8%AE%B0/" alt="微信分享二维码">
+    <img src="//api.qrserver.com/v1/create-qr-code/?data=https://535417.github.io/2021/04/15/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B9%8B%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/" alt="微信分享二维码">
 </div>
 
 <div class="mask"></div>
@@ -293,25 +241,15 @@ color                定义文本颜色
 
     <aside class="post-toc-pos post-toc-top" id="post-toc">
         <nav class="post-toc-wrap">
-            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#HTML%E7%AC%94%E8%AE%B0"><span class="post-toc-text">HTML笔记</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#HTML%E7%AE%80%E4%BB%8B"><span class="post-toc-text">HTML简介</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#HTML"><span class="post-toc-text">HTML</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#HTML%E6%A0%87%E7%AD%BE%E7%89%B9%E7%82%B9"><span class="post-toc-text">HTML标签特点</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#html%E5%9F%BA%E7%A1%80%E6%A0%87%E7%AD%BE"><span class="post-toc-text">html基础标签</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#HTML%E5%85%83%E7%B4%A0"><span class="post-toc-text">HTML元素</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#HTML%E5%B1%9E%E6%80%A7"><span class="post-toc-text">HTML属性</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#HTML%E6%A0%B7%E5%BC%8F"><span class="post-toc-text">HTML样式</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link"><span class="post-toc-text">This is a heading</span></a></li></ol></li></ol>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B9%8B%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86"><span class="post-toc-text">渗透测试之信息收集</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#1-%E6%94%B6%E9%9B%86%E5%9F%9F%E5%90%8D%E4%BF%A1%E6%81%AF"><span class="post-toc-text">1.收集域名信息</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#whois%E6%9F%A5%E8%AF%A2"><span class="post-toc-text">whois查询</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E5%A4%87%E6%A1%88%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2"><span class="post-toc-text">备案信息查询</span></a></li></ol></li></ol></li></ol>
         </nav>
     </aside>
     
 
 <nav id="article-nav">
   
-    <a href="/2021/04/15/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B9%8B%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/" id="article-nav-newer" class="article-nav-link-wrap">
-
-      <span class="article-nav-title">
-        <i class="fa fa-hand-o-left" aria-hidden="true"></i>
-        
-          (no title)
-        
-      </span>
-    </a>
   
-  
-    <a href="/2021/04/14/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%AD%E5%8F%A5/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2021/04/14/html%E7%AC%94%E8%AE%B0/" id="article-nav-older" class="article-nav-link-wrap">
       <span class="article-nav-title"></span>
       <i class="fa fa-hand-o-right" aria-hidden="true"></i>
     </a>
